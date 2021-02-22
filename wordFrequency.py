@@ -12,5 +12,5 @@ try:
             d1[word] =1
    print(d1)
     
-except:
+except:#this exception occured when file not found
      print("file not found to display")
